@@ -1,4 +1,5 @@
 import UserCard from "./userCard.jsx";
+import Producto from "./producto.jsx";
 
 function App() {
   return (
@@ -16,7 +17,32 @@ function App() {
         age={35} 
         isOnline={false} 
       />
+  
+      <h1>Catálogo de Productos</h1>
+
+      <Producto 
+        name="Auriculares Bluetooth" 
+        price={59.99} 
+        discount={20} 
+        category="Electrónica" 
+      />
+
+      <Producto 
+        name="Camiseta Deportiva" 
+        price={25} 
+        category="Ropa" 
+      />
+
+      <Producto 
+        name="Portátil Gamer" 
+        price={1200} 
+        discount={15} 
+        category="Informática" 
+      />
     </div>
+
+    
+
   );
 }
 
