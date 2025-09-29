@@ -7,6 +7,7 @@ un objeto con:
 ● completed (boolean)
 El componente debe mostrar cada tarea con un check indicando si está completada o no */
 import React from 'react';
+import "./MisComponentes.css";
 
 function TaskList({ tasks = [] }) {
   return (
