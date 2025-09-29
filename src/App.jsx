@@ -1,4 +1,5 @@
 import UserCard from "./userCard.jsx";
+import TaskList from "./TaskList.jsx";
 import Producto from "./producto.jsx";
 
 function App() {
@@ -18,8 +19,17 @@ function App() {
         isOnline={false} 
       />
   
-      <h1>Catálogo de Productos</h1>
 
+      <TaskList 
+        tasks={[
+          { id: 1, title: "Comprar leche", completed: false },
+          { id: 2, title: "Estudiar React", completed: true },
+          { id: 3, title: "Hacer ejercicio", completed: false },
+        ]}
+      />
+
+
+      <h1>Catálogo de Productos</h1>
       <Producto 
         name="Auriculares Bluetooth" 
         price={59.99} 
