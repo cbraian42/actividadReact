@@ -1,10 +1,14 @@
+import React from "react";
 import UserCard from "./userCard.jsx";
 import TaskList from "./TaskList.jsx";
 import Producto from "./producto.jsx";
+import Counter from "./contador.jsx";
+
 
 function App() {
   return (
     <div>
+      <Counter />
       <h1>Usuarios</h1>
       <UserCard 
         name="María López" 
