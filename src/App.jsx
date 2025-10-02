@@ -4,10 +4,14 @@ import TaskList from "./TaskList.jsx";
 import Producto from "./producto.jsx";
 import TodoList from './TodoList.jsx';
 import Counter from "./contador.jsx";
+import ProductCatalog from './ProductCatalog.jsx';
 
 function App() {
   return (
     <div>
+      <div>
+      <ProductCatalog />
+      </div>
       <Counter />
       <h1>Usuarios</h1>
       <UserCard 
