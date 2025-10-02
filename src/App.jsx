@@ -4,11 +4,13 @@ import TaskList from "./TaskList.jsx";
 import Producto from "./producto.jsx";
 import Counter from "./contador.jsx";
 import TodoList from "./todolist.jsx";
+import PanelUsuarios from "./ej5.jsx";
 
 
 function App() {
   return (
     <div>
+      <PanelUsuarios />
       <Counter />
       <TodoList />
       
