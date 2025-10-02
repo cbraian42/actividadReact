@@ -1,16 +1,18 @@
 import React from "react";
 import UserCard from "./userCard.jsx";
-import TaskList from "./TaskList.jsx";
 import Producto from "./producto.jsx";
 import Counter from "./contador.jsx";
 import TodoList from "./todolist.jsx";
 import PanelUsuarios from "./ej5.jsx";
+import TaskList from "./lista.jsx"
 
 
 function App() {
   return (
     <div>
       <PanelUsuarios />
+      <TaskList />
+
       <Counter />
       <TodoList />
       
@@ -27,15 +29,7 @@ function App() {
         age={35} 
         isOnline={false} 
       />
-  
 
-      <TaskList 
-        tasks={[
-          { id: 1, title: "Comprar leche", completed: false },
-          { id: 2, title: "Estudiar React", completed: true },
-          { id: 3, title: "Hacer ejercicio", completed: false },
-        ]}
-      />
 
 
       <h1>Catálogo de Productos</h1>
